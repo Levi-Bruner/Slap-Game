@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Slap Shkreli</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row slap-shkreli">
+      <col-12>
+        <h2>Slap Shrkeli</h2>
+      </col-12>
+    </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row justify-content-around" id="image-row">
+      <col-6 id="player">
+        Player
+        <p><img src="https://www.loopevo.com/assets/images/if-you-want-to-be-rich-you-need-to-desire-it-a-lot.jpg"
+            id="player-pic"></p>
+        <p>$ <span id="money">150</span></p>
+        <button onclick="earnMoney()" type="button" class="btn btn-primary" btn-lg btn-block>Earn Money</button>
+      </col-6>
+      <col-6>
+        <span>Health: <span id="health">100</span></span>
+        <p>
+          <img
+            src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2Fe90dda8b0b884c6b981d3716109b86f8%2F960x0.jpg%3Ffit%3Dscale"
+            id="slap-this">
+        </p>
+        <button onclick="slap()" type="button" class="btn btn-primary" btn-lg btn-block">Slap</button>
+        <button onclick="punch()" type="button" class="btn btn-primary" btn-lg btn-block">Punch</button>
+        <button onclick="kick()" type="button" class="btn btn-primary" btn-lg btn-block">Kick</button>
+        <p>
+          <h1>Hits:</h1> <span id="hits"></span>
+        </p>
+      </col-6>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
